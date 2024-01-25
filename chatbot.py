@@ -1,5 +1,5 @@
 import openai
-openai.api_key = "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"
+openai.api_key = "INSERT YOUR SECRET KEY"
 
 content = input("User: ")
 response = openai.chat.completions.create(
